@@ -1,0 +1,59 @@
+body {
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
+	overflow: hidden;
+}
+
+#chart {
+	height: 80vh;
+	position: absolute;
+	top: 60px;
+}
+
+.c3-legend-item text {
+	color: white;
+}
+
+path.domain { stroke: white; }
+.tick text { stroke: #F1F0F6; }
+.c3-legend-item text { 
+	fill: white; 
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 26px;
+}
+
+.c3-line {
+    stroke-width: 3px;
+}
+
+.c3-circle {
+    stroke-width: 1px;
+}
+
+.c3-axis-y text {
+   font-size:18px;
+   fill: white; 
+   font-family: "DIN Condensed", sans-serif;
+   stroke-width: 0.1px;
+}
+
+h1 {
+	font-size: 3em !important;
+	text-align: center;
+	margin-top: 40px;
+	color: white;
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2em !important;
+	margin-top: -20px;
+	margin-left: 80px;
+	text-align: center;
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-weight: 200;
+	color: #fff;
+}
